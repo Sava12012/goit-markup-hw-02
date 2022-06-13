@@ -4,7 +4,10 @@
   --secondary-font: "Raleway"
 
   /* text colors */
-  --accent-color: #212121;
+  --accent-txt-col: #212121;
+  --link-txt-col: #2196F3;
+  --header-txt-cont: #757575;
+  --whithe-txt-col: #FFFFFF;
 
 
   /* bg colors */
@@ -33,21 +36,59 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--accent-txt-col)
 }
 .header-contact{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--header-txt-cont)
 }
-
 .header-link:hover,
 .header-link:focus{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.33px;
-letter-spacing: 0.02em;
-color: #2196F3;
+color: var(--link-txt-col)
 }
+.header-contact:hover,
+.header-contact:focus{
+  color: var(--link-txt-col)
+}
+ /* Hero Section */
+ .hero{
+  background-color: #2F303A;
+ }
+ .hero-h1{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--whithe-txt-col)
+ }
+ .btn-txt{
+font-family: inherity;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.btn-bg{
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+/* About section */
+.about-h3
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
