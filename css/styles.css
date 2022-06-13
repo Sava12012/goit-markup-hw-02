@@ -76,14 +76,15 @@ color: #212121;
 
  }
  .hero-h1{
+font-family: 'Roboto'; sans-serif;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
-color: var(--whithe-txt-col)
+color: #FFFFFF;
  }
-.hero .button {
+.hero .button{
   font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -102,7 +103,7 @@ color: var(--whithe-txt-col)
 
 /* About section */
 .about-h3{
-font-family: 'Roboto';
+font-family:'Roboto'; sans-serif;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -111,7 +112,7 @@ color: #212121;
 }
 
 .about-p{
-font-family: 'Roboto';
+font-family:'Roboto'; sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -121,8 +122,7 @@ color: #757575;
 
 /* Services section */
 .services-h2{
-font-family: 'Roboto';
-font-style: normal;
+font-family: 'Roboto'; sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -133,8 +133,7 @@ color: #212121;
 
 /* Team section */
 .team-h3{
-font-family: 'Roboto';
-font-style: normal;
+font-family: 'Roboto'; sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -142,8 +141,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .team-p{
-font-family: 'Roboto';
-font-style: normal;
+font-family: 'Roboto'; sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
@@ -155,7 +153,6 @@ color: #757575;
 
 .portfolio .button {
   font-family: roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
