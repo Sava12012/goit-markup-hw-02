@@ -192,7 +192,7 @@ color: #757575;
   background-color: #2F303A;
 }
 
-.footer .logo {
+.footer .logo{
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
@@ -203,6 +203,10 @@ color: #757575;
 
 .footer .span {
   color: #2196f3;
+}
+
+.maps-link{
+  color: #FFFFFF;
 }
 
 .footer-link{
@@ -216,4 +220,8 @@ color: rgba(255, 255, 255, 0.6);
 .footer-link:hover,
 .footer-link:focus{
 color: #2196f3;
+}
+.link-decoration{
+  text-decoration: none;
+  
 }
