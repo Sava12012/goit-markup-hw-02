@@ -1,13 +1,7 @@
 :root {
   /* text color */
-  --main-font: "Roboto"
-  --secondary-font: "Raleway"
-
-  /* text colors */
-  --accent-txt-col: #212121;
-  --link-txt-col: #2196F3;
-  --header-txt-cont: #757575;
-  --whithe-txt-col: #FFFFFF;
+  --main-font: "Roboto";
+  --secondary-font: "Raleway";
 }
 
 body {
@@ -150,7 +144,7 @@ color: #757575;
 /* Portfolio */
 
 .portfolio .button {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -191,7 +185,7 @@ footer {
 }
 
 .footer .logo {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
